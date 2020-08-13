@@ -44,9 +44,9 @@ class webscrapping:
 
 opening_bid_main = 0.0
 suma_stock = 0.0 
-while True:
-    pretz=webscrapping(opening_bid_main,0.0,0.0,0.0,0,0,0.0)
+pretz=webscrapping(opening_bid_main,0.0,0.0,0.0,0,0,0.0)
+while True: 
     print(pretz.priceTracker())
     pretz.stock_buy()
     pretz.stock_sell()
-      
+   
